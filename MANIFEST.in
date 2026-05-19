@@ -1,0 +1,3 @@
+include midichords/README.md
+recursive-include midichords/ *
+recursive-include midichords/artwork *
