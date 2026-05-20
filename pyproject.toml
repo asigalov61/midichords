@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "midichords"
-version = "26.5.18"
-description = "MIDI Chords"
+version = "26.5.21"
+description = "Comprehensive Python package with pre-trained models for working with MIDI chords"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
 authors = [
@@ -19,6 +19,8 @@ dependencies = [
   "tqdm",
   "scikit-learn",
   "scipy",
+  "matplotlib",
+  "torch",
   "numpy==1.26.4"
 ]
 
@@ -30,6 +32,9 @@ keywords = [
   "chords",
   "music chords",
   "music information retrieval",
+  "chords embeddings",
+  "chords similarity",
+  "chords tools",
   "MIR"
 ]
 
